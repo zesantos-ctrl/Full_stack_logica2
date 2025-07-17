@@ -69,12 +69,33 @@ function verificarChute() {
     let nome = prompt("Digite um nome de uma cidade: ");
     console.log(`Olá ${nome} lembrei de você`);
 }
-*/
-
-
+exibirNaTela();
 //3
 function verificarChute() { 
     let n =  document.querySelector("input").value;
     let resultado = n * 2;
     console.log(resultado);
 }
+*/
+//4
+function verificarChute(n1, n2, n3) {
+    return (n1 + n2 + n3) / 3;
+}
+let media = verificarChute(10, 10, 10);
+console.log(media);
+
+//5
+function verificarChute(n1, n2) {
+    let maior = n1 < n2 ?  console.log(n2) : console.log(n1);
+}
+verificarChute(1,2);
+
+
+
+
+//6
+function retornarNumero(n) {
+    let resultado = n * n;
+    console.log(resultado);
+}
+retornarNumero(5);
